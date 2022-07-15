@@ -2,7 +2,7 @@
 
 ## Problem description
 
-Finds the shortest path between two of eleven Dutch cities accounting for routes under construction.
+Find the shortest path between two of eleven Dutch cities accounting for routes under construction.
 
 ## Input-output behavior
 
