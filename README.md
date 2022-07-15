@@ -42,7 +42,7 @@ Groningen
 UNREACHABLE
 ```
 
-## Solution
+## Approach
 A weighted graph was used to represent the problem (dutch train system). As the search tree resulting from this problem has infinite depth, A*, a variation of Dijkstra's shortest path algorithm was used to intruduce a geographic heuristic to the search; A* prioritizes the city where the sum of the pseudo-distance and the straight line distance between the goal and the given city (heuristic) is minimal. A priority queue was used for this purpose. This is the main algorithm:
 
 ```
